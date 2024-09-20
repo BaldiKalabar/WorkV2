@@ -1,0 +1,350 @@
+@font-face {
+  font-family: Neucha;
+  src: url(/Visyal/fots/Neucha-Regular.ttf);
+  font-weight: 400;
+}
+* {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.boxhead li {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body {
+  background: url(/Visyal/foto/fotofon1.png) no-repeat;
+  font-family: Neucha;
+  color: #504949;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.start {
+  padding-top: 15px;
+  padding-left: 852px;
+  display: flex;
+}
+.start__logo {
+  display: flex;
+  position: sticky;
+  top: 10px;
+}
+.start__logo-text {
+  color: #000000;
+  font-family: Neucha;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+.start__box {
+  padding-top: 240px;
+  display: flex;
+}
+.start__imgfloatb {
+  padding-left: 163px;
+}
+.start__titletx {
+  color: #000;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  padding-left: 164px;
+  padding-right: 164px;
+  margin-bottom: 660px;
+}
+
+.preim {
+  background: url(/Visyal/foto/preimfon.png) no-repeat;
+  padding-bottom: 195px;
+  padding-top: 100px;
+}
+.preim__title {
+  margin-left: 567px;
+  padding-top: 78px;
+  color: #000;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  width: 761.74px;
+  height: 229px;
+  border-style: none;
+  background-color: #4741FF;
+  border-radius: 51px;
+}
+.preim__predtitle {
+  margin-left: 400px;
+  padding-top: 192px;
+  max-width: 1039px;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70.5px;
+  text-align: center;
+}
+
+.tovar {
+  background: url(/Visyal/foto/FonTovar.png) no-repeat;
+}
+.tovar__osnova {
+  color: #000;
+}
+.tovar__tit {
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+.tovar__title {
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.tovar__colocol {
+  padding-bottom: 100px;
+}
+.tovar__flex {
+  display: flex;
+}
+.tovar__chena {
+  width: 329px;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.tovar__vrema {
+  width: 840px;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+.tovar__photo {
+  width: 418px;
+  height: 278px;
+  top: 317px;
+  left: -9095.5px;
+  gap: 0px;
+  border-radius: 360px 0px 0px 0px;
+  opacity: 0px;
+}
+.tovar__osnova {
+  margin-bottom: 3px;
+}
+.tovar__bg {
+  max-width: 1923px;
+  background: linear-gradient(180deg, #1E971E -1.76%, #2E00FF 41.61%);
+}
+.tovar__rasEmail {
+  padding-top: 40px;
+}
+.tovar__pod {
+  padding-top: 30px;
+  display: flex;
+  padding-left: 120px;
+  padding-bottom: 130px;
+  background: rgba(21, 255, 0, 0.568);
+}
+.tovar__Email {
+  color: #000;
+  padding-top: 30px;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+.tovar__Emailtiltle {
+  padding-left: 142px;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+@media (max-width: 1600px) {
+  .tovar__Emailtiltle {
+    padding-left: 100px;
+  }
+}
+.tovar__registerbtn {
+  width: 284.69px;
+  height: 53.93px;
+  top: 1563.12px;
+  left: -9049.6px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: #4223F0;
+  color: #000;
+  font-family: Neucha;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  text-align: center;
+}
+.tovar__Emailreg {
+  font-size: 50px;
+  background-color: #60AB14;
+  width: 1084px;
+}
+
+.onas {
+  background: linear-gradient(180deg, rgba(19, 8, 115, 0.8) 0%, rgba(13, 255, 0, 0.8) 100%);
+}
+.onas__title {
+  padding-top: 100px;
+  color: #000;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.onas__img {
+  padding-left: 200px;
+}
+@media (max-width: 1600px) {
+  .onas__img {
+    padding-left: 100px;
+  }
+}
+.onas__flex {
+  padding-top: 130px;
+  display: flex;
+}
+.onas__text {
+  width: 660px;
+  padding-top: 30px;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  padding-left: 60px;
+}
+.onas__text-2 {
+  width: 660px;
+  padding-top: 42px;
+  font-family: Neucha;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  padding-left: 58px;
+}
+
+.otziv {
+  background: linear-gradient(180deg, rgba(13, 255, 0, 0.8) 0%, rgba(124, 113, 216, 0.8) 100%);
+}
+.otziv__title {
+  padding-top: 100px;
+  font-family: Lemon;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+.otziv__text {
+  border-radius: 100px;
+  padding: 50px 40px 25px 42px;
+  width: 832px;
+  height: 170px;
+  background-color: #6FFABE;
+  margin-left: 80px;
+  display: flex;
+  margin-top: 25px;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.otziv__youha {
+  display: flex;
+}
+.otziv__ostav {
+  max-width: 492px;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  margin-left: 740px;
+  margin-right: 70px;
+}
+@media (max-width: 1600px) {
+  .otziv__ostav {
+    font-size: 34px;
+    margin-left: 500px;
+  }
+}
+.otziv__btn {
+  color: white;
+  border-radius: 100px;
+  background-color: #0004FF;
+  width: 605px;
+  height: 170px;
+  font-family: Neucha;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+
+.podval {
+  background: linear-gradient(90deg, #3700FF 64%, #01FF4D 100%);
+}
+.podval__mail {
+  display: flex;
+}
+.podval__mail-img {
+  padding-top: 40px;
+  width: 139px;
+  height: 142px;
+}
+.podval__mail-text {
+  color: #000;
+  padding-top: 43px;
+  font-family: Neucha;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 144px;
+  text-align: center;
+}
+.podval__telegram {
+  display: flex;
+}
+.podval__telegram-img {
+  margin-bottom: 50px;
+  padding-top: 60px;
+  width: 139px;
+  height: 142px;
+}
+.podval__telegram-text {
+  padding-top: 43px;
+  font-family: Neucha;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 144px;
+  text-align: center;
+}/*# sourceMappingURL=cod.css.map */

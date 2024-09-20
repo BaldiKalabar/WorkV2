@@ -1,0 +1,391 @@
+@font-face {
+    font-family: Neucha;
+    src: url(/Visyal/fots/Neucha-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.boxhead li {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body{
+    
+    background: url(/Visyal/foto/fotofon1.png) no-repeat;
+    font-family: Neucha;
+    color:#504949;
+    font-size: 18px;
+    font-weight: 400;
+}
+.start{
+    padding-top: 15px;
+    padding-left: 852px;
+    display: flex;
+    &__logo{
+        display: flex;
+        position: sticky;
+        top: 10px;
+    }
+    &__logo-text{
+        color: #000000;
+        font-family: Neucha;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+    }
+    &__box{
+       
+        padding-top: 240px;
+        display: flex;
+    }
+    &__imgfloatb{
+        padding-left: 163px;
+    }
+    &__titletx{
+        color: #000;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+
+        padding-left: 164px;
+        padding-right: 164px;
+        margin-bottom: 660px;
+    }
+}
+.preim{
+    background: url(/Visyal/foto/preimfon.png) no-repeat;
+    padding-bottom: 195px;
+    padding-top: 100px;
+    &__title{
+        margin-left: 567px;
+        padding-top: 78px;
+       color: #000;
+       font-family: Neucha;
+       font-size: 48px;
+       font-weight: 400;
+       line-height: 72px;
+       text-align: center; 
+       width: 761.74px;
+       height: 229px;
+       border-style: none;
+       background-color: #4741FF;
+       border-radius: 51px;
+       
+
+    }
+    
+    &__predtitle{
+        
+        margin-left: 400px;
+        padding-top: 192px;
+        max-width: 1039px;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 70.5px;
+        text-align: center;
+
+    }
+}
+.tovar{
+    background: url(/Visyal/foto/FonTovar.png) no-repeat;
+    
+    
+    &__osnova{
+        color: #000;
+    }
+
+
+    &__tit{
+        font-family: Neucha;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+
+    }
+    &__title{
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+        
+    }
+
+    &__colocol{
+        padding-bottom: 100px;
+        
+    }
+    &__flex{
+        display: flex;
+    }
+    &__chena{
+        width: 329px;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+
+    }
+
+
+    &__vrema{
+        width: 840px;
+        font-family: Neucha;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+
+    }
+
+    &__photo{
+        
+        width: 418px;
+        height: 278px;
+        top: 317px;
+        left: -9095.5px;
+        gap: 0px;
+        border-radius: 360px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+
+    &__osnova{
+        margin-bottom: 3px;
+        
+    }
+    &__bg{
+        max-width: 1923px;
+        background: linear-gradient(180deg, #1E971E -1.76%, #2E00FF 41.61%);
+    }
+    &__rasEmail{
+        padding-top: 40px;
+    }
+    &__pod{
+        padding-top: 30px;  
+        display: flex;
+        padding-left: 120px;
+        padding-bottom:  130px;
+        background: rgba(21, 255, 0, 0.568)
+        
+    }
+    &__Email{
+
+        color: #000;
+        padding-top: 30px;
+        font-family: Neucha;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+        
+
+    }
+    &__Emailtiltle{
+        @media (max-width: 1600px) {
+            padding-left: 100px;
+        }
+        padding-left: 142px;
+        font-family: Neucha;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+
+    }
+    &__registerbtn{
+        
+        width: 284.69px;
+        height: 53.93px;
+        top: 1563.12px;
+        left: -9049.6px;
+        gap: 0px;
+        border-radius: 100px;
+        opacity: 0px;
+
+        background-color: #4223F0;
+        color: #000;
+        font-family: Neucha;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 54px;
+        text-align: center;
+
+    }
+    &__Emailreg{
+                    
+        font-size: 50px;
+        background-color: #60AB14 ;
+        width: 1084px;
+    }
+
+}
+.onas{
+    background: linear-gradient(180deg, rgba(19, 8, 115, 0.8) 0%, rgba(13, 255, 0, 0.8) 100%);
+    &__title{
+        padding-top: 100px;
+        color: #000;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+
+    }
+    &__img{
+        padding-left: 200px;
+        @media (max-width: 1600px) {
+            padding-left: 100px;
+        }   
+    }
+    &__flex{
+        padding-top: 130px;
+        display: flex;  
+        
+    }
+    &__text{
+        width: 660px;
+        padding-top: 30px;  
+        font-family: Neucha;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+        padding-left: 60px;
+        &-2{
+            width: 660px;
+            padding-top: 42px;
+            font-family: Neucha;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 72px;
+            text-align: center;
+            
+            padding-left: 58px;
+
+        }        
+    }
+}
+.otziv{
+    background: linear-gradient(180deg, rgba(13, 255, 0, 0.8) 0%, rgba(124, 113, 216, 0.8) 100%);
+    &__title{
+        
+        padding-top: 100px;
+        
+        font-family: Lemon;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: center;
+
+    }
+    &__text{
+        border-radius: 100px;
+        padding: 50px 40px 25px 42px;
+        width: 832px;
+        height: 170px;
+        background-color:#6FFABE;
+        margin-left: 80px;
+        display: flex; 
+        margin-top: 25px;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+
+    }
+    &__youha{
+        display: flex;
+    }
+    &__ostav{
+        max-width: 492px;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+        margin-left: 740px;
+        margin-right: 70px;
+        @media (max-width: 1600px) {
+            font-size: 34px;
+            margin-left: 500px;
+            
+        }
+
+    }
+    &__btn{
+        
+        color: white;
+        border-radius: 100px;
+        background-color: #0004FF;
+        width: 605px;
+        height: 170px;
+        font-family: Neucha;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 96px;
+        text-align: center;
+
+    }
+}
+.podval{
+    background: linear-gradient(90deg, #3700FF 64%, #01FF4D 100%);
+    &__mail{
+        display: flex;
+        &-img{
+            padding-top: 40px;
+            width: 139px;
+            height: 142px;
+        }
+        &-text{
+            color: #000;
+            padding-top: 43px;
+            font-family: Neucha;
+            font-size: 96px;
+            font-weight: 400;
+            line-height: 144px;
+            text-align: center;
+
+        }
+    }
+    &__telegram{
+        display: flex;
+        &-img{
+            margin-bottom: 50px;
+            padding-top: 60px;
+            width: 139px;
+            height: 142px;
+        }
+        &-text{
+            
+            
+            padding-top: 43px;
+            font-family: Neucha;
+            font-size: 96px;
+            font-weight: 400;
+            line-height: 144px;
+            text-align: center;
+
+        }
+    }
+    
+}
